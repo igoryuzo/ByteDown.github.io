@@ -50,7 +50,7 @@ function slideTextOnImage(){
   if ($('.project').hover()) {
     $('.project').on('hover', function(){
       $(this).toggleClass('show-description');
-      $('.project-layer p').css('opacity') = '0.6';
+      // $('.project-layer p').css({opacity: 0.6});
       // $('.project-layer').addClass('color-overlay');
     });
 
