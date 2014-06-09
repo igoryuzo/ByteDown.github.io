@@ -272,7 +272,7 @@ hr {
   width: 30%;
   height: 45%;
   margin: 1.5em;
-  border: 2px solid #BA8F1B;
+  border: 2px solid #40310A;
   -webkit-border-radius: 8px;
   -moz-border-radius: 8px;
   border-radius: 8px;
@@ -283,7 +283,7 @@ hr {
 .project p {
   color: #fff;
   font-family: aileron_regular_font;
-  background-color: rgba(186, 143, 27, .9);
+  background-color: rgba(64, 49, 10, .9);
 /*  background: -webkit-linear-gradient(bottom, rgba(0,0,0,1), rgba(0,0,0,.4));
   background: -moz-linear-gradient(bottom, rgba(0,0,0,1), rgba(0,0,0,.4));
   background: linear-gradient(bottom, rgba(0,0,0,1), rgba(0,0,0,.4));*/
