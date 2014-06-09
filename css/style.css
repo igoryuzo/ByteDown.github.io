@@ -36,7 +36,7 @@ section {
 }
 
 .layer {
-  background-color: rgba(35, 26, 46, .6);
+  background-color: rgba(47, 35, 61, .7);
   position: absolute;
   top: 0;
   left: 0;
@@ -211,8 +211,8 @@ hr {
   display: block;
   position: relative;
   text-decoration: none;
-  color: #421E57;
-  border: 3px solid #421E57;
+  color: #231A2E;
+  border: 3px solid #231A2E;
   padding: 22px 0 0 0;
   width: 250px;
   text-align: center;
@@ -239,7 +239,7 @@ hr {
 .icons i {
   margin-right: 10px;
   text-decoration: none;
-  color: #421E57;
+  color: #231A2E;
   -webkit-transition: all .2s ease-out;
   -moz-transition: all .2s ease-out;
   transition: all .2s ease-out;
@@ -283,7 +283,7 @@ hr {
 .project p {
   color: #fff;
   font-family: aileron_regular_font;
-  background-color: rgba(186, 143, 27, .95);
+  background-color: rgba(186, 143, 27, .9);
 /*  background: -webkit-linear-gradient(bottom, rgba(0,0,0,1), rgba(0,0,0,.4));
   background: -moz-linear-gradient(bottom, rgba(0,0,0,1), rgba(0,0,0,.4));
   background: linear-gradient(bottom, rgba(0,0,0,1), rgba(0,0,0,.4));*/
