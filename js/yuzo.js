@@ -1,10 +1,14 @@
 $(document).ready(function(){
-  $('.welcome-heading').hide(0).delay(300).fadeIn(1000);
   setIntervalBitAnimation();
   setIntervalArrowAnimation();
   fadeInSkills();
   slideTextOnImage();
+  hideSkillsOnLoad();
 });
+
+function hideSkillsOnLoad(){
+  $('.skills-wrapper').hide();
+}
 
 $(window).scroll(function(){
   if($(this).scrollTop() > 550 && $('.skills-wrapper').is(':hidden')) {

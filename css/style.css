@@ -1,7 +1,7 @@
-body {
-  width: 100%;
-  margin: 0 auto;
-  overflow-x: hidden;
+html, body {
+    width: 100%;
+    margin: 0;
+    overflow-x: hidden;
 }
 
 @font-face {
@@ -21,19 +21,14 @@ body {
 
 section {
   position: relative;
-  margin: 0 auto;
-  padding: 0;
-  width: 100%;
+  max-width: 100%;
 }
 
 #section1 {
-  height: 600px;
-  opacity: .9;
-  z-index: 2;
-  background-image: url("../imgs/Empire-State.jpg");
-  background-repeat: repeat-none;
-  padding-top: 3em;
-  padding-bottom: 1em;
+  height: 650px;
+  background-image: url("../imgs/y-chat.jpg");
+/*  padding-top: 3em;
+  padding-bottom: 1em;*/
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
@@ -41,7 +36,7 @@ section {
 }
 
 .layer {
-  background-color: rgba(66, 30, 87, 0.875);
+  background-color: rgba(35, 26, 46, .6);
   position: absolute;
   top: 0;
   left: 0;
@@ -51,7 +46,7 @@ section {
 
 #section2 {
   position: relative;
-  height: 800px;
+  height: 940px;
   padding-top: 3em;
   padding-bottom: 1em;
   background-image: url("../imgs/white_wall_hash.png");
@@ -62,7 +57,10 @@ section {
   height: 550px;
   padding-top: 3em;
   padding-bottom: 1em;
-  background-color: #421E57;
+  background: #231A2E;
+/*  background-image: url("../imgs/radial.png");
+  background-repeat: none;
+  background-size: cover;*/
   opacity: .875;
   text-align: center;
 }
@@ -80,43 +78,6 @@ section {
   padding-top: 3em;
   padding-bottom: 1em;
   background-image: url("../imgs/white_wall_hash.png");
-}
-
-.nav-bar {
-  position: fixed;
-  height: 30px;
-  margin-top: 20px;
-  width: 300px;
-  left: 900px;
-}
-
-.nav-bar a {
-  color: white;
-  margin-right: 20px;
-}
-
-.nav-bar a:link {
-  text-decoration: none;
-}
-
-.grow {
-  display: inline-block;
-  -webkit-transition-duration: 0.3s;
-  transition-duration: 0.3s;
-  -webkit-transition-property: -webkit-transform;
-  transition-property: transform;
-  -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
-  -webkit-transform: translateZ(0);
-  -ms-transform: translateZ(0);
-  transform: translateZ(0);
-  box-shadow: 0 0 1px rgba(0, 0, 0, 0);
-}
-
-.grow:hover {
-  opacity: .7;
-  -webkit-transform: scale(1.1);
-  -ms-transform: scale(1.1);
-  transform: scale(1.1);
 }
 
 .heading-wrapper {
@@ -156,7 +117,7 @@ section {
 }
 
 .about-wrapper p {
-  font-family: aileron_thin_font;
+  font-family: aileron_regular_font;
   line-height: 150%;
   font-size: 19px;
 }
@@ -164,59 +125,52 @@ section {
 .skills-wrapper {
   position: relative;
   text-align: center;
-  padding-top: 0px;
+  padding-top: 30px;
   width: 100%;
-  height: 400px;
+  height: auto;
   color: #616365;
-  overflow: auto;
-  overflow-y: hidden;
-  display: none;
+/*  overflow: auto;
+  overflow-y: hidden;*/
 }
 
 .skills-wrapper h1 {
+  position: relative;
   font-family: aileron_regular_font;
   font-size: 40px;
+  padding-bottom: 40px;
+  margin-bottom: 0;
 }
 
 .dev-skills {
   position: relative;
-  top: 30px;
   display: inline-block;
+  text-align: center;
+  margin-left: 8em;
+  margin-right: 8em;
 }
 
 .dev-skills h1 {
   font-family: aileron_regular_font;
   font-size: 27px;
-  margin-right: 100px;
-  margin-left: 155px;
+  text-align: center;
+  padding: 20px 0 0 0;
+  margin: 0;
 }
 
 .dev-skills ul {
+  position: relative;
   font-size: 18px;
   text-align: center;
   line-height: 140%;
   font-family: aileron_regular_font;
   list-style-type: none;
+  padding: 20px 0 0 0;
+  margin: 0;
 }
 
-.front-end {
-  float: left;
-  width: 200px;
-  height: 100px;
-  margin-right: 16.5em;
-}
-
-.back-end {
-  float: left;
-  width: 200px;
-  height: 100px;
-  margin-right: 10em;
-}
-
-.technologies {
-  float: left;
-  width: 300px;
-  height: 100px;
+.dev-skills i {
+  font-size: 70px;
+  color: #BA8F1B;
 }
 
 .contact-wrapper {
@@ -226,12 +180,6 @@ section {
   bottom: 5px;
   margin: 0 auto;
   width: 100%;
-}
-
-.icons i {
-  margin-right: 10px;
-  text-decoration: none;
-  color: #421E57;
 }
 
 footer {
@@ -265,7 +213,7 @@ hr {
   text-decoration: none;
   color: #421E57;
   border: 3px solid #421E57;
-  padding: 20px 0 0 0;
+  padding: 22px 0 0 0;
   width: 250px;
   text-align: center;
   height: 45px;
@@ -273,16 +221,48 @@ hr {
   margin: 0 auto;
   font-size: 18px;
   font-family: aileron_regular_font;
-  -moz-transition: all .2s ease-out;
   -webkit-transition: all .2s ease-out;
+  -moz-transition: all .2s ease-out;
+  transition: all .2s ease-out;
+
 }
 
 #send-message .hover-trigger:hover {
-  color: #daa520;
-  border: 3px solid #daa520;
+  color: #BA8F1B;
+  border: 3px solid #BA8F1B;
   -webkit-transform: scale(1.03);
   -ms-transform: scale(1.03);
   transform: scale(1.03);
+}
+
+
+.icons i {
+  margin-right: 10px;
+  text-decoration: none;
+  color: #421E57;
+  -webkit-transition: all .2s ease-out;
+  -moz-transition: all .2s ease-out;
+  transition: all .2s ease-out;
+}
+
+.icons i:hover {
+  color: #BA8F1B;
+  -webkit-transform: scale(1.1);
+  -ms-transform: scale(1.1);
+  transform: scale(1.1);
+}
+
+.bit {
+  -webkit-transition: all .2s ease-out;
+  -moz-transition: all .2s ease-out;
+  transition: all .2s ease-out;
+}
+
+.bit:hover {
+  color: #BA8F1B;
+  -webkit-transform: scale(1.1);
+  -ms-transform: scale(1.1);
+  transform: scale(1.1);
 }
 
 .project {
@@ -291,8 +271,8 @@ hr {
   vertical-align: top;
   width: 30%;
   height: 45%;
-  margin: .5em;
-/*  border: 3px solid white;*/
+  margin: 1.5em;
+  border: 2px solid #BA8F1B;
   -webkit-border-radius: 8px;
   -moz-border-radius: 8px;
   border-radius: 8px;
@@ -303,8 +283,7 @@ hr {
 .project p {
   color: #fff;
   font-family: aileron_regular_font;
-  background: #616365;
-  opacity: .9;
+  background-color: rgba(186, 143, 27, .95);
 /*  background: -webkit-linear-gradient(bottom, rgba(0,0,0,1), rgba(0,0,0,.4));
   background: -moz-linear-gradient(bottom, rgba(0,0,0,1), rgba(0,0,0,.4));
   background: linear-gradient(bottom, rgba(0,0,0,1), rgba(0,0,0,.4));*/
@@ -370,22 +349,3 @@ hr {
   width: 100%;
   height: 100%;
 }
-/*
-
-p {
-  color: rgba(255,255,255,1);
-  background: black;
-  background: linear-gradient(bottom, rgba(0,0,0,1), rgba(0,0,0,.4));
-  background: -webkit-linear-gradient(bottom, rgba(0,0,0,1), rgba(0,0,0,.4));
-  background: -moz-linear-gradient(bottom, rgba(0,0,0,1), rgba(0,0,0,.4));
-  padding: 10px;
-  line-height: 28px;
-  text-align: justify;
-  position: absolute;
-  bottom: 0;
-  margin: 0;
-  height: 30px;
-  transition: height .5s;
-  -webkit-transition: height .5s;
-  -moz-transition: height .5s;
-}*/
