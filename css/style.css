@@ -287,9 +287,10 @@ hr {
 /*  background: -webkit-linear-gradient(bottom, rgba(0,0,0,1), rgba(0,0,0,.4));
   background: -moz-linear-gradient(bottom, rgba(0,0,0,1), rgba(0,0,0,.4));
   background: linear-gradient(bottom, rgba(0,0,0,1), rgba(0,0,0,.4));*/
-  padding: 10px;
+  padding: 15px;
   line-height: 18px;
   text-align: justify;
+  font-size: 24px;
   position: absolute;
   bottom: 0;
   -webkit-border-bottom-left-radius: 5px;
@@ -299,25 +300,74 @@ hr {
   border-bottom-left-radius: 5px;
   border-bottom-right-radius: 5px;
   margin: 0 auto;
-  height: 100px;
-  -webkit-transition: height .6s;
-  -moz-transition: height .6s;
-  transition: height .6s;
-}
-
-.slide {
-  position: relative;
-  width: 100%;
-  height: 100%;
-  border: 1px solid red;
-  text-align: center;
+  height: 106px;
+  opacity: 1;
+  -webkit-transition: height 0.4s ease-in-out;
+  -moz-transition: height 0.4s ease-in-out;
+  transition: height 0.4s ease-in-out;
 }
 
 .project small {
   display: block;
   position: relative;
   padding-top: 10px;
+  font-size: 14px;
   opacity: 1;
+  -webkit-transition: opacity 400ms ease-in;
+  -moz-transition: opacity 400ms ease-in;
+  transition: opacity 400ms ease-in;
+}
+
+.tic-tac-foot-links {
+  font-family: aileron_regular_font;
+  font-size: 16px;
+  padding-left: 4px;
+}
+
+.tic-tac-foot-links a {
+  padding-left: 10px;
+  color: #BA8F1B;
+  text-decoration: none;
+  -webkit-transition: all .2s ease-out;
+  -moz-transition: all .2s ease-out;
+  transition: all .2s ease-out;
+}
+
+.tic-tac-foot-links a:hover {
+  color: #231A2E;
+  -webkit-transform: scale(1.1);
+  -ms-transform: scale(1.1);
+  transform: scale(1.1);
+}
+
+.tic-tac-foot-links i {
+  padding-right: 4px;
+}
+
+.moker-links {
+  font-family: aileron_regular_font;
+  font-size: 16px;
+  padding-left: 73px
+}
+
+.moker-links a {
+  padding-left: 10px;
+  color: #BA8F1B;
+  text-decoration: none;
+  -webkit-transition: all .2s ease-out;
+  -moz-transition: all .2s ease-out;
+  transition: all .2s ease-out;
+}
+
+.moker-links a:hover {
+  color: #231A2E;
+  -webkit-transform: scale(1.1);
+  -ms-transform: scale(1.1);
+  transform: scale(1.1);
+}
+
+.moker-links i {
+  padding-right: 4px;
 }
 
 .show-description p  {
@@ -348,4 +398,21 @@ hr {
   left: 0;
   width: 100%;
   height: 100%;
+}
+
+@media (max-width: 800px) {
+       /* Smaller Resolution Desktops and Laptops */
+       [...]
+}
+@media (max-width: 650px) {
+       /* Smaller devices */
+       [...]
+}
+@media (max-width: 450px) {
+       /* Even Smaller devices */
+       [...]
+}
+@media only screen and (min-device-width: 320px) and (max-device-width: 480px) {
+       /* Even Smaller devices */
+       [...]
 }
