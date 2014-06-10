@@ -54,34 +54,7 @@ function slideTextOnImage(){
   if ($('.project').hover()) {
     $('.project').on('hover', function(){
       $(this).toggleClass('show-description');
-      // $('.project-layer p').css({opacity: 0.6});
-      // $('.project-layer').addClass('color-overlay');
     });
 
   }
 }
-
-// function slideTextOnImage(){
-//   $('.project').each(function(){
-//     $('.project').mouseenter(function(){
-//       $('.project').css('background', 'red');
-//     });
-//   });
-// }
-
-
-  // $('.project').each(function(){
-  //   var elm = $(this);
-  //   $(this).mouseenter(
-  //     function(){
-  //       elm.find('.about-wrapper p').animate({opacity: 1.0}, 500, function(){
-  //         elm.find('.about-wrapper p').show('slide', {direction:"down"},500);
-  //       });
-  //     }).mouseleave(
-  //     function() {
-  //       elm.find('.about-wrapper p').animate({opacity: 0.70}, 500, function(){
-  //         elm.find('.about-wrapper p').hide('slide', {direction:"down"},500);
-  //       });
-  //     }
-  //     )
-  // });
