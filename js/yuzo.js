@@ -11,9 +11,9 @@ function hideSkillsOnLoad(){
 }
 
 $(window).scroll(function(){
-  if($(this).scrollTop() > 550 && $('.skills-wrapper').is(':hidden')) {
-    $('.skills-wrapper').fadeIn(10);
-  } else if ($(this).scrollTop() < 550 && !$('.skills-wrapper').is(':hidden')) {
+  if($(this).scrollTop() > 400 && $('.skills-wrapper').is(':hidden')) {
+    $('.skills-wrapper').fadeIn();
+  } else if ($(this).scrollTop() < 400 && !$('.skills-wrapper').is(':hidden')) {
     $('.skills-wrapper').fadeOut();
   }
 });
