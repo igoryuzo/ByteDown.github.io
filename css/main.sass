@@ -15,6 +15,17 @@
 $proxima-light: "Proxima-Light"
 $proxima-bold: "Proxima-Bold"
 $proxima-light-italic: "Proxima-Light-Italic"
+
+$project-header: 2.125em
+$project-header-mobile: 4.25em
+$project-subheader: 1.25em
+$project-subheader-mobile: 2.875em
+$project-desc: 1.125em
+$project-desc-mobile: 3em
+$project-button: 1.25em
+$project-button-mobile: 4.125em
+$project-button-width: 80px
+$project-button-width-mobile: 250px
   
 body
   margin: 0
@@ -43,11 +54,11 @@ body
   line-height: 28px
   margin: 70px auto 100px auto
   color: #898987
-  font-size: 1.25em
+  font-size: $project-subheader
   @media only screen and (max-device-width: 650px)
     width: 700px
     line-height: 60px
-    font-size: 2.5em
+    font-size: 3.5em
     margin: 170px auto 200px auto
 
 // Social Media Icons
@@ -135,24 +146,24 @@ body
   text-align: center
   margin: 0 auto
   font-family: $proxima-bold
-  font-size: 2.125em 
+  font-size: $project-header 
   padding-top: 60px
   color: #48466D
   @media only screen and (max-device-width: 650px)
     width: 600px
-    font-size: 4.25em
+    font-size: $project-header-mobile
     padding-top: 120px
 
 .project-subheader-resume
   width: 300px
   font-family: $proxima-light-italic
-  font-size: 1.25em
+  font-size: $project-subheader
   text-align: center
   margin: 0 auto
   color: #48466D
   @media only screen and (max-device-width: 650px)
     width: 600px
-    font-size: 1.875em
+    font-size: $project-subheader-mobile
     
 .project-desc-resume
   width: 600px
@@ -162,11 +173,11 @@ body
   padding-top: 40px
   padding-bottom: 40px
   line-height: 28px
-  font-size: 1.125em
+  font-size: $project-desc
   color: #48466D
   @media only screen and (max-device-width: 650px)
     width: 800px
-    font-size: 2em
+    font-size: $project-desc-mobile
     line-height: 56px
     padding-top: 80px
     padding-bottom: 80px
@@ -175,14 +186,14 @@ body
 .project-button-resume
   border-bottom: 1px solid #3D84A8
   color: #3D84A8
-  width: 80px
+  width: $project-button-width
   padding-bottom: 6px
-  font-size: 1.25em
+  font-size: $project-button
   text-align: center
   margin: 0 auto
   @media only screen and (max-device-width: 650px)
-    width: 180px
-    font-size: 3.125em
+    width: $project-button-width-mobile
+    font-size: $project-button-mobile
     padding-bottom: 12px
 
 .project-header-wealth-boost
@@ -190,24 +201,24 @@ body
   text-align: center
   margin: 0 auto
   font-family: $proxima-bold
-  font-size: 2.125em 
+  font-size: $project-header 
   padding-top: 60px
   color: #D8E9F0
   @media only screen and (max-device-width: 650px)
     width: 600px
-    font-size: 4.25em
+    font-size: $project-header-mobile
     padding-top: 120px
     
 .project-subheader-wealth-boost
   width: 300px
   font-family: $proxima-light-italic
-  font-size: 1.25em
+  font-size: $project-subheader
   text-align: center
   margin: 0 auto
   color: #D8E9F0
   @media only screen and (max-device-width: 650px)
     width: 600px
-    font-size: 1.875em
+    font-size: $project-subheader-mobile
     
 .project-desc-wealth-boost
   width: 600px
@@ -217,11 +228,11 @@ body
   padding-top: 40px
   padding-bottom: 40px
   line-height: 28px
-  font-size: 1.125em
+  font-size: $project-desc
   color: #D8E9F0
   @media only screen and (max-device-width: 650px)
     width: 800px
-    font-size: 2em
+    font-size: $project-desc-mobile
     line-height: 56px  
     padding-top: 80px
     padding-bottom: 80px
@@ -230,14 +241,14 @@ body
 .project-button-wealth-boost
   border-bottom: 1px solid #FFF
   color: #FFF
-  width: 80px
+  width: $project-button-width
   padding-bottom: 6px
-  font-size: 1.25em
+  font-size: $project-button
   text-align: center
   margin: 0 auto
   @media only screen and (max-device-width: 650px)
-    width: 180px
-    font-size: 3.125em
+    width: $project-button-width-mobile
+    font-size: $project-button-mobile
     padding-bottom: 12px
     
 .project-header-gekkou
@@ -245,24 +256,24 @@ body
   text-align: center
   margin: 0 auto
   font-family: $proxima-bold
-  font-size: 2.125em 
+  font-size: $project-header 
   padding-top: 60px
   color: #F06868
   @media only screen and (max-device-width: 650px)
     width: 600px
-    font-size: 4.25em
+    font-size: $project-header-mobile
     padding-top: 120px
     
 .project-subheader-gekkou
   width: 300px
   font-family: $proxima-light-italic
-  font-size: 1.25em
+  font-size: $project-subheader
   text-align: center
   margin: 0 auto
   color: #FFF
   @media only screen and (max-device-width: 650px)
     width: 600px
-    font-size: 1.875em
+    font-size: $project-subheader-mobile
     
 .project-desc-gekkou
   width: 600px
@@ -272,11 +283,11 @@ body
   padding-top: 40px
   padding-bottom: 40px
   line-height: 28px
-  font-size: 1.125em
+  font-size: $project-desc
   color: #FFF
   @media only screen and (max-device-width: 650px)
     width: 800px
-    font-size: 2em
+    font-size: $project-desc-mobile
     line-height: 56px
     padding-top: 80px
     padding-bottom: 80px
@@ -285,14 +296,14 @@ body
 .project-button-gekkou
   border-bottom: 1px solid #F07668
   color: #F07668
-  width: 80px
+  width: $project-button-width
   padding-bottom: 6px
-  font-size: 1.25em
+  font-size: $project-button
   text-align: center
   margin: 0 auto
   @media only screen and (max-device-width: 650px)
-    width: 180px
-    font-size: 3.125em
+    width: $project-button-width-mobile
+    font-size: $project-button-mobile
     padding-bottom: 12px
     
 .project-header-moker
@@ -300,24 +311,24 @@ body
   text-align: center
   margin: 0 auto
   font-family: $proxima-bold
-  font-size: 2.125em 
+  font-size: $project-header 
   padding-top: 60px
   color: #454553
   @media only screen and (max-device-width: 650px)
     width: 600px
-    font-size: 4.25em
+    font-size: $project-header-mobile
     padding-top: 120px
     
 .project-subheader-moker
   width: 300px
   font-family: $proxima-light-italic
-  font-size: 1.25em
+  font-size: $project-subheader
   text-align: center
   margin: 0 auto
   color: #D8E9F0
   @media only screen and (max-device-width: 650px)
     width: 600px
-    font-size: 1.875em
+    font-size: $project-subheader-mobile
     
 .project-desc-moker
   width: 600px
@@ -327,11 +338,11 @@ body
   padding-top: 40px
   padding-bottom: 40px
   line-height: 28px
-  font-size: 1.125em
+  font-size: $project-desc
   color: #D8E9F0
   @media only screen and (max-device-width: 650px)
     width: 800px
-    font-size: 2em
+    font-size: $project-desc-mobile
     line-height: 56px
     padding-top: 80px
     padding-bottom: 80px
@@ -340,14 +351,14 @@ body
 .project-button-moker
   border-bottom: 1px solid #D8E9F0
   color: #D8E9F0
-  width: 80px
+  width: $project-button-width
   padding-bottom: 6px
-  font-size: 1.25em
+  font-size: $project-button
   text-align: center
   margin: 0 auto
   @media only screen and (max-device-width: 650px)
-    width: 180px
-    font-size: 3.125em
+    width: $project-button-width-mobile
+    font-size: $project-button-mobile
     padding-bottom: 12px
       
 .project-header-tictac-foot
@@ -355,24 +366,24 @@ body
   text-align: center
   margin: 0 auto
   font-family: $proxima-bold
-  font-size: 2.125em 
+  font-size: $project-header
   padding-top: 60px
   color: #625772
   @media only screen and (max-device-width: 650px)
     width: 600px
-    font-size: 4.25em
+    font-size: $project-header-mobile
     padding-top: 120px
     
 .project-subheader-tictac-foot
   width: 300px
   font-family: $proxima-light-italic
-  font-size: 1.25em
+  font-size: $project-subheader
   text-align: center
   margin: 0 auto
   color: #353940
   @media only screen and (max-device-width: 650px)
     width: 600px
-    font-size: 1.875em
+    font-size: $project-subheader-mobile
     
 .project-desc-tictac-foot
   width: 600px
@@ -382,11 +393,11 @@ body
   padding-top: 40px
   padding-bottom: 40px
   line-height: 28px
-  font-size: 1.125em
+  font-size: $project-desc
   color: #353940
   @media only screen and (max-device-width: 650px)
     width: 800px
-    font-size: 2em
+    font-size: $project-desc-mobile
     line-height: 56px
     padding-top: 80px
     padding-bottom: 80px
@@ -395,14 +406,14 @@ body
 .project-button-tictac-foot
   border-bottom: 1px solid #F9A1BC
   color: #F9A1BC
-  width: 80px
+  width: $project-button-width
   padding-bottom: 6px
-  font-size: 1.25em
+  font-size: $project-button
   text-align: center
   margin: 0 auto
   @media only screen and (max-device-width: 650px)
-    width: 180px
-    font-size: 3.125em
+    width: $project-button-width-mobile
+    font-size: $project-button-mobile
     padding-bottom: 12px
       
 //Email Section
@@ -414,7 +425,7 @@ body
 
 .email-text
   padding-bottom: 50px
-  font-size: 1.25em
+  font-size: $project-subheader
   text-align: center
   color: #454553
   @media only screen and (max-device-width: 650px)
@@ -426,7 +437,7 @@ body
   display: inline-block
   background: #EB586F
   border-radius: 5px
-  font-size: 1.25em
+  font-size: $project-subheader
   line-height: 30px
   padding: 12px 35px
   color: #fff
@@ -460,7 +471,7 @@ body
     width: 800px
     padding: 200px 0 200px 0
     margin: 0 auto
-    font-size: 1.25em
+    font-size: $project-subheader
     text-align: center
 
 .footer-text img
