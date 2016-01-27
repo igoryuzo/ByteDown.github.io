@@ -21,7 +21,7 @@ body {
   margin: 0 auto;
   text-align: center;
   padding-top: 100px; }
-  @media only screen and (min-device-width: 375px) {
+  @media only screen and (max-device-width: 650px) {
     .home-page_header-text {
       font-size: 80px;
       width: 800px;
@@ -31,34 +31,35 @@ body {
   width: 600px;
   text-align: left;
   line-height: 28px;
-  margin: 100px auto 100px auto;
+  margin: 70px auto 100px auto;
   color: #898987;
   font-size: 20px; }
-  @media only screen and (min-device-width: 375px) {
+  @media only screen and (max-device-width: 650px) {
     .desc {
       width: 700px;
       line-height: 60px;
-      font-size: 40px; } }
+      font-size: 40px;
+      margin: 170px auto 200px auto; } }
 
 .social-media-icons-container {
-  width: 300px;
+  width: 400px;
   margin: 0 auto;
   text-align: center; }
-  @media only screen and (min-device-width: 375px) {
+  @media only screen and (max-device-width: 650px) {
     .social-media-icons-container {
-      width: 600px; } }
+      width: 800px; } }
 
 .icons-container {
   display: inline-block;
   padding: 30px; }
-  @media only screen and (min-device-width: 375px) {
+  @media only screen and (max-device-width: 650px) {
     .icons-container {
       padding: 30px 60px 30px 60px; } }
 
 .icons {
   width: 30px;
   height: 30px; }
-  @media only screen and (min-device-width: 375px) {
+  @media only screen and (max-device-width: 650px) {
     .icons {
       width: 60px;
       height: 60px; } }
@@ -81,7 +82,7 @@ body {
 .imac-iphone-section {
   padding-top: 100px;
   padding-bottom: 100px; }
-  @media only screen and (min-device-width: 375px) {
+  @media only screen and (max-device-width: 650px) {
     .imac-iphone-section {
       padding-top: 200px;
       padding-bottom: 200px; } }
@@ -89,32 +90,31 @@ body {
 .imac-section {
   padding-top: 100px;
   padding-bottom: 100px; }
-  @media only screen and (min-device-width: 375px) {
+  @media only screen and (max-device-width: 650px) {
     .imac-section {
       padding-top: 200px;
       padding-bottom: 200px; } }
 
 .imac-iphone-container {
   position: relative;
-  width: 600px;
+  width: 500px;
   margin: 0 auto;
   text-align: center; }
-  @media only screen and (min-device-width: 375px) {
+  @media only screen and (max-device-width: 650px) {
     .imac-iphone-container {
       width: 800px; } }
 
 .imac-container {
-  position: relative;
-  width: 600px;
+  width: 500px;
   margin: 0 auto;
   text-align: center; }
-  @media only screen and (min-device-width: 375px) {
+  @media only screen and (max-device-width: 650px) {
     .imac-container {
       width: 800px; } }
 
 .imac-container img {
   width: 500px; }
-  @media only screen and (min-device-width: 375px) {
+  @media only screen and (max-device-width: 650px) {
     .imac-container img {
       width: 700px; } }
 
@@ -122,11 +122,11 @@ body {
   width: 375px;
   position: absolute;
   top: 100px;
-  left: 310px; }
-  @media only screen and (min-device-width: 375px) {
+  left: 225px; }
+  @media only screen and (max-device-width: 650px) {
     .mobile-container img {
       width: 550px;
-      left: 345px; } }
+      left: 330px; } }
 
 .project-header-resume {
   width: 300px;
@@ -136,20 +136,20 @@ body {
   font-size: 34px;
   padding-top: 60px;
   color: #48466D; }
-  @media only screen and (min-device-width: 375px) {
+  @media only screen and (max-device-width: 650px) {
     .project-header-resume {
       width: 600px;
       font-size: 68px;
       padding-top: 120px; } }
 
 .project-subheader-resume {
-  width: 600px;
+  width: 300px;
   font-family: "Proxima-Light-Italic";
   font-size: 20px;
   text-align: center;
   margin: 0 auto;
   color: #48466D; }
-  @media only screen and (min-device-width: 375px) {
+  @media only screen and (max-device-width: 650px) {
     .project-subheader-resume {
       width: 600px;
       font-size: 30px; } }
@@ -158,18 +158,20 @@ body {
   width: 600px;
   text-align: left;
   margin: 0 auto;
+  margin-left: -35px;
   padding-top: 40px;
   padding-bottom: 40px;
   line-height: 28px;
   font-size: 18px;
   color: #48466D; }
-  @media only screen and (min-device-width: 375px) {
+  @media only screen and (max-device-width: 650px) {
     .project-desc-resume {
       width: 800px;
       font-size: 32px;
       line-height: 56px;
       padding-top: 80px;
-      padding-bottom: 80px; } }
+      padding-bottom: 80px;
+      margin: 0; } }
 
 .project-button-resume {
   border-bottom: 1px solid #3D84A8;
@@ -179,7 +181,7 @@ body {
   font-size: 20px;
   text-align: center;
   margin: 0 auto; }
-  @media only screen and (min-device-width: 375px) {
+  @media only screen and (max-device-width: 650px) {
     .project-button-resume {
       width: 180px;
       font-size: 50px;
@@ -193,20 +195,20 @@ body {
   font-size: 34px;
   padding-top: 60px;
   color: #D8E9F0; }
-  @media only screen and (min-device-width: 375px) {
+  @media only screen and (max-device-width: 650px) {
     .project-header-wealth-boost {
       width: 600px;
       font-size: 68px;
       padding-top: 120px; } }
 
 .project-subheader-wealth-boost {
-  width: 600px;
+  width: 300px;
   font-family: "Proxima-Light-Italic";
   font-size: 20px;
   text-align: center;
   margin: 0 auto;
   color: #D8E9F0; }
-  @media only screen and (min-device-width: 375px) {
+  @media only screen and (max-device-width: 650px) {
     .project-subheader-wealth-boost {
       width: 600px;
       font-size: 30px; } }
@@ -215,18 +217,20 @@ body {
   width: 600px;
   text-align: left;
   margin: 0 auto;
+  margin-left: -35px;
   padding-top: 40px;
   padding-bottom: 40px;
   line-height: 28px;
   font-size: 18px;
   color: #D8E9F0; }
-  @media only screen and (min-device-width: 375px) {
+  @media only screen and (max-device-width: 650px) {
     .project-desc-wealth-boost {
       width: 800px;
       font-size: 32px;
       line-height: 56px;
       padding-top: 80px;
-      padding-bottom: 80px; } }
+      padding-bottom: 80px;
+      margin: 0; } }
 
 .project-button-wealth-boost {
   border-bottom: 1px solid #FFF;
@@ -236,7 +240,7 @@ body {
   font-size: 20px;
   text-align: center;
   margin: 0 auto; }
-  @media only screen and (min-device-width: 375px) {
+  @media only screen and (max-device-width: 650px) {
     .project-button-wealth-boost {
       width: 180px;
       font-size: 50px;
@@ -250,20 +254,20 @@ body {
   font-size: 34px;
   padding-top: 60px;
   color: #F06868; }
-  @media only screen and (min-device-width: 375px) {
+  @media only screen and (max-device-width: 650px) {
     .project-header-gekkou {
       width: 600px;
       font-size: 68px;
       padding-top: 120px; } }
 
 .project-subheader-gekkou {
-  width: 600px;
+  width: 300px;
   font-family: "Proxima-Light-Italic";
   font-size: 20px;
   text-align: center;
   margin: 0 auto;
   color: #FFF; }
-  @media only screen and (min-device-width: 375px) {
+  @media only screen and (max-device-width: 650px) {
     .project-subheader-gekkou {
       width: 600px;
       font-size: 30px; } }
@@ -272,18 +276,20 @@ body {
   width: 600px;
   text-align: left;
   margin: 0 auto;
+  margin-left: -35px;
   padding-top: 40px;
   padding-bottom: 40px;
   line-height: 28px;
   font-size: 18px;
   color: #FFF; }
-  @media only screen and (min-device-width: 375px) {
+  @media only screen and (max-device-width: 650px) {
     .project-desc-gekkou {
       width: 800px;
       font-size: 32px;
       line-height: 56px;
       padding-top: 80px;
-      padding-bottom: 80px; } }
+      padding-bottom: 80px;
+      margin: 0; } }
 
 .project-button-gekkou {
   border-bottom: 1px solid #F07668;
@@ -293,7 +299,7 @@ body {
   font-size: 20px;
   text-align: center;
   margin: 0 auto; }
-  @media only screen and (min-device-width: 375px) {
+  @media only screen and (max-device-width: 650px) {
     .project-button-gekkou {
       width: 180px;
       font-size: 50px;
@@ -307,20 +313,20 @@ body {
   font-size: 34px;
   padding-top: 60px;
   color: #454553; }
-  @media only screen and (min-device-width: 375px) {
+  @media only screen and (max-device-width: 650px) {
     .project-header-moker {
       width: 600px;
       font-size: 68px;
       padding-top: 120px; } }
 
 .project-subheader-moker {
-  width: 600px;
+  width: 300px;
   font-family: "Proxima-Light-Italic";
   font-size: 20px;
   text-align: center;
   margin: 0 auto;
   color: #D8E9F0; }
-  @media only screen and (min-device-width: 375px) {
+  @media only screen and (max-device-width: 650px) {
     .project-subheader-moker {
       width: 600px;
       font-size: 30px; } }
@@ -329,18 +335,20 @@ body {
   width: 600px;
   text-align: left;
   margin: 0 auto;
+  margin-left: -35px;
   padding-top: 40px;
   padding-bottom: 40px;
   line-height: 28px;
   font-size: 18px;
   color: #D8E9F0; }
-  @media only screen and (min-device-width: 375px) {
+  @media only screen and (max-device-width: 650px) {
     .project-desc-moker {
       width: 800px;
       font-size: 32px;
       line-height: 56px;
       padding-top: 80px;
-      padding-bottom: 80px; } }
+      padding-bottom: 80px;
+      margin: 0; } }
 
 .project-button-moker {
   border-bottom: 1px solid #D8E9F0;
@@ -350,7 +358,7 @@ body {
   font-size: 20px;
   text-align: center;
   margin: 0 auto; }
-  @media only screen and (min-device-width: 375px) {
+  @media only screen and (max-device-width: 650px) {
     .project-button-moker {
       width: 180px;
       font-size: 50px;
@@ -364,20 +372,20 @@ body {
   font-size: 34px;
   padding-top: 60px;
   color: #625772; }
-  @media only screen and (min-device-width: 375px) {
+  @media only screen and (max-device-width: 650px) {
     .project-header-tictac-foot {
       width: 600px;
       font-size: 68px;
       padding-top: 120px; } }
 
 .project-subheader-tictac-foot {
-  width: 600px;
+  width: 300px;
   font-family: "Proxima-Light-Italic";
   font-size: 20px;
   text-align: center;
   margin: 0 auto;
   color: #353940; }
-  @media only screen and (min-device-width: 375px) {
+  @media only screen and (max-device-width: 650px) {
     .project-subheader-tictac-foot {
       width: 600px;
       font-size: 30px; } }
@@ -386,18 +394,20 @@ body {
   width: 600px;
   text-align: left;
   margin: 0 auto;
+  margin-left: -35px;
   padding-top: 40px;
   padding-bottom: 40px;
   line-height: 28px;
   font-size: 18px;
   color: #353940; }
-  @media only screen and (min-device-width: 375px) {
+  @media only screen and (max-device-width: 650px) {
     .project-desc-tictac-foot {
       width: 800px;
       font-size: 32px;
       line-height: 56px;
       padding-top: 80px;
-      padding-bottom: 80px; } }
+      padding-bottom: 80px;
+      margin: 0; } }
 
 .project-button-tictac-foot {
   border-bottom: 1px solid #F9A1BC;
@@ -407,7 +417,7 @@ body {
   font-size: 20px;
   text-align: center;
   margin: 0 auto; }
-  @media only screen and (min-device-width: 375px) {
+  @media only screen and (max-device-width: 650px) {
     .project-button-tictac-foot {
       width: 180px;
       font-size: 50px;
@@ -416,7 +426,7 @@ body {
 .email-section {
   padding: 100px;
   text-align: center; }
-  @media only screen and (min-device-width: 375px) {
+  @media only screen and (max-device-width: 650px) {
     .email-section {
       padding: 200px; } }
 
@@ -425,7 +435,7 @@ body {
   font-size: 20px;
   text-align: center;
   color: #454553; }
-  @media only screen and (min-device-width: 375px) {
+  @media only screen and (max-device-width: 650px) {
     .email-text {
       padding-bottom: 100px;
       font-size: 40px;
@@ -440,19 +450,23 @@ body {
   padding: 12px 35px;
   color: #fff;
   box-shadow: 0 3px 1px #C74A5E;
-  text-decoration: none;
-  font-size: 45px;
-  line-height: 60px;
-  padding: 24px 70px;
-  box-shadow: 0 6px 2px #C74A5E; }
+  text-decoration: none; }
+  @media only screen and (max-device-width: 650px) {
+    .btn {
+      font-size: 45px;
+      line-height: 60px;
+      padding: 24px 70px;
+      box-shadow: 0 6px 2px #C74A5E; } }
 
 .btn img {
   width: 30px;
   height: 30px;
-  margin-right: 10px;
-  width: 60px;
-  height: 60px;
-  margin-right: 20px; }
+  margin-right: 10px; }
+  @media only screen and (max-device-width: 650px) {
+    .btn img {
+      width: 60px;
+      height: 60px;
+      margin-right: 20px; } }
 
 .footer-section {
   background: #393E46; }
@@ -463,7 +477,7 @@ body {
   margin: 0 auto;
   text-align: center;
   color: #222831; }
-  @media only screen and (min-device-width: 375px) {
+  @media only screen and (max-device-width: 650px) {
     .footer-text {
       width: 800px;
       padding: 200px 0 200px 0;
@@ -474,7 +488,7 @@ body {
 .footer-text img {
   width: 20px;
   height: 20px; }
-  @media only screen and (min-device-width: 375px) {
+  @media only screen and (max-device-width: 650px) {
     .footer-text img {
       width: 50px;
       height: 50px; } }
