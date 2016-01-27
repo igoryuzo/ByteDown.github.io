@@ -25,12 +25,19 @@ $project-desc-mobile: 3em
 $project-button: 1.25em
 $project-button-mobile: 3.25em
 $project-button-width: 80px
-$project-button-width-mobile: 250px
+$project-button-width-mobile: 190px
   
 body
   margin: 0
   padding: 0
   font: 100% $proxima-light
+
+a
+  text-decoration: none
+  cursor: pointer
+
+a:visited
+  color: inherit
 
 // Homepage
 .home-page_header-text
@@ -56,9 +63,9 @@ body
   color: #898987
   font-size: $project-subheader
   @media only screen and (max-device-width: 650px)
-    width: 700px
+    width: 800px
     line-height: 60px
-    font-size: 3.5em
+    font-size: 1.8em
     margin: 170px auto 200px auto
 
 // Social Media Icons
@@ -471,7 +478,7 @@ body
     width: 800px
     padding: 200px 0 200px 0
     margin: 0 auto
-    font-size: 2em
+    font-size: 3em
     text-align: center
 
 .footer-text img
