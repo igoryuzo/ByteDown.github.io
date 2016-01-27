@@ -17,7 +17,7 @@ body {
   font-family: "Proxima-Bold";
   color: #7D8795;
   letter-spacing: 4px;
-  font-size: 40px;
+  font-size: 2.5em;
   width: 600px;
   margin: 0 auto;
   text-align: center;
@@ -34,12 +34,12 @@ body {
   line-height: 28px;
   margin: 70px auto 100px auto;
   color: #898987;
-  font-size: 20px; }
+  font-size: 1.25em; }
   @media only screen and (max-device-width: 650px) {
     .desc {
       width: 700px;
       line-height: 60px;
-      font-size: 40px;
+      font-size: 2.5em;
       margin: 170px auto 200px auto; } }
 
 .social-media-icons-container {
@@ -134,26 +134,26 @@ body {
   text-align: center;
   margin: 0 auto;
   font-family: "Proxima-Bold";
-  font-size: 34px;
+  font-size: 2.125em;
   padding-top: 60px;
   color: #48466D; }
   @media only screen and (max-device-width: 650px) {
     .project-header-resume {
       width: 600px;
-      font-size: 68px;
+      font-size: 4.25em;
       padding-top: 120px; } }
 
 .project-subheader-resume {
   width: 300px;
   font-family: "Proxima-Light-Italic";
-  font-size: 20px;
+  font-size: 1.25em;
   text-align: center;
   margin: 0 auto;
   color: #48466D; }
   @media only screen and (max-device-width: 650px) {
     .project-subheader-resume {
       width: 600px;
-      font-size: 30px; } }
+      font-size: 1.875em; } }
 
 .project-desc-resume {
   width: 600px;
@@ -163,12 +163,12 @@ body {
   padding-top: 40px;
   padding-bottom: 40px;
   line-height: 28px;
-  font-size: 18px;
+  font-size: 1.125em;
   color: #48466D; }
   @media only screen and (max-device-width: 650px) {
     .project-desc-resume {
       width: 800px;
-      font-size: 32px;
+      font-size: 2em;
       line-height: 56px;
       padding-top: 80px;
       padding-bottom: 80px;
@@ -179,13 +179,13 @@ body {
   color: #3D84A8;
   width: 80px;
   padding-bottom: 6px;
-  font-size: 20px;
+  font-size: 1.25em;
   text-align: center;
   margin: 0 auto; }
   @media only screen and (max-device-width: 650px) {
     .project-button-resume {
       width: 180px;
-      font-size: 50px;
+      font-size: 3.125em;
       padding-bottom: 12px; } }
 
 .project-header-wealth-boost {
@@ -193,26 +193,26 @@ body {
   text-align: center;
   margin: 0 auto;
   font-family: "Proxima-Bold";
-  font-size: 34px;
+  font-size: 2.125em;
   padding-top: 60px;
   color: #D8E9F0; }
   @media only screen and (max-device-width: 650px) {
     .project-header-wealth-boost {
       width: 600px;
-      font-size: 68px;
+      font-size: 4.25em;
       padding-top: 120px; } }
 
 .project-subheader-wealth-boost {
   width: 300px;
   font-family: "Proxima-Light-Italic";
-  font-size: 20px;
+  font-size: 1.25em;
   text-align: center;
   margin: 0 auto;
   color: #D8E9F0; }
   @media only screen and (max-device-width: 650px) {
     .project-subheader-wealth-boost {
       width: 600px;
-      font-size: 30px; } }
+      font-size: 1.875em; } }
 
 .project-desc-wealth-boost {
   width: 600px;
@@ -222,12 +222,12 @@ body {
   padding-top: 40px;
   padding-bottom: 40px;
   line-height: 28px;
-  font-size: 18px;
+  font-size: 1.125em;
   color: #D8E9F0; }
   @media only screen and (max-device-width: 650px) {
     .project-desc-wealth-boost {
       width: 800px;
-      font-size: 32px;
+      font-size: 2em;
       line-height: 56px;
       padding-top: 80px;
       padding-bottom: 80px;
@@ -238,13 +238,13 @@ body {
   color: #FFF;
   width: 80px;
   padding-bottom: 6px;
-  font-size: 20px;
+  font-size: 1.25em;
   text-align: center;
   margin: 0 auto; }
   @media only screen and (max-device-width: 650px) {
     .project-button-wealth-boost {
       width: 180px;
-      font-size: 50px;
+      font-size: 3.125em;
       padding-bottom: 12px; } }
 
 .project-header-gekkou {
@@ -252,26 +252,26 @@ body {
   text-align: center;
   margin: 0 auto;
   font-family: "Proxima-Bold";
-  font-size: 34px;
+  font-size: 2.125em;
   padding-top: 60px;
   color: #F06868; }
   @media only screen and (max-device-width: 650px) {
     .project-header-gekkou {
       width: 600px;
-      font-size: 68px;
+      font-size: 4.25em;
       padding-top: 120px; } }
 
 .project-subheader-gekkou {
   width: 300px;
   font-family: "Proxima-Light-Italic";
-  font-size: 20px;
+  font-size: 1.25em;
   text-align: center;
   margin: 0 auto;
   color: #FFF; }
   @media only screen and (max-device-width: 650px) {
     .project-subheader-gekkou {
       width: 600px;
-      font-size: 30px; } }
+      font-size: 1.875em; } }
 
 .project-desc-gekkou {
   width: 600px;
@@ -281,12 +281,12 @@ body {
   padding-top: 40px;
   padding-bottom: 40px;
   line-height: 28px;
-  font-size: 18px;
+  font-size: 1.125em;
   color: #FFF; }
   @media only screen and (max-device-width: 650px) {
     .project-desc-gekkou {
       width: 800px;
-      font-size: 32px;
+      font-size: 2em;
       line-height: 56px;
       padding-top: 80px;
       padding-bottom: 80px;
@@ -297,13 +297,13 @@ body {
   color: #F07668;
   width: 80px;
   padding-bottom: 6px;
-  font-size: 20px;
+  font-size: 1.25em;
   text-align: center;
   margin: 0 auto; }
   @media only screen and (max-device-width: 650px) {
     .project-button-gekkou {
       width: 180px;
-      font-size: 50px;
+      font-size: 3.125em;
       padding-bottom: 12px; } }
 
 .project-header-moker {
@@ -311,26 +311,26 @@ body {
   text-align: center;
   margin: 0 auto;
   font-family: "Proxima-Bold";
-  font-size: 34px;
+  font-size: 2.125em;
   padding-top: 60px;
   color: #454553; }
   @media only screen and (max-device-width: 650px) {
     .project-header-moker {
       width: 600px;
-      font-size: 68px;
+      font-size: 4.25em;
       padding-top: 120px; } }
 
 .project-subheader-moker {
   width: 300px;
   font-family: "Proxima-Light-Italic";
-  font-size: 20px;
+  font-size: 1.25em;
   text-align: center;
   margin: 0 auto;
   color: #D8E9F0; }
   @media only screen and (max-device-width: 650px) {
     .project-subheader-moker {
       width: 600px;
-      font-size: 30px; } }
+      font-size: 1.875em; } }
 
 .project-desc-moker {
   width: 600px;
@@ -340,12 +340,12 @@ body {
   padding-top: 40px;
   padding-bottom: 40px;
   line-height: 28px;
-  font-size: 18px;
+  font-size: 1.125em;
   color: #D8E9F0; }
   @media only screen and (max-device-width: 650px) {
     .project-desc-moker {
       width: 800px;
-      font-size: 32px;
+      font-size: 2em;
       line-height: 56px;
       padding-top: 80px;
       padding-bottom: 80px;
@@ -356,13 +356,13 @@ body {
   color: #D8E9F0;
   width: 80px;
   padding-bottom: 6px;
-  font-size: 20px;
+  font-size: 1.25em;
   text-align: center;
   margin: 0 auto; }
   @media only screen and (max-device-width: 650px) {
     .project-button-moker {
       width: 180px;
-      font-size: 50px;
+      font-size: 3.125em;
       padding-bottom: 12px; } }
 
 .project-header-tictac-foot {
@@ -370,26 +370,26 @@ body {
   text-align: center;
   margin: 0 auto;
   font-family: "Proxima-Bold";
-  font-size: 34px;
+  font-size: 2.125em;
   padding-top: 60px;
   color: #625772; }
   @media only screen and (max-device-width: 650px) {
     .project-header-tictac-foot {
       width: 600px;
-      font-size: 68px;
+      font-size: 4.25em;
       padding-top: 120px; } }
 
 .project-subheader-tictac-foot {
   width: 300px;
   font-family: "Proxima-Light-Italic";
-  font-size: 20px;
+  font-size: 1.25em;
   text-align: center;
   margin: 0 auto;
   color: #353940; }
   @media only screen and (max-device-width: 650px) {
     .project-subheader-tictac-foot {
       width: 600px;
-      font-size: 30px; } }
+      font-size: 1.875em; } }
 
 .project-desc-tictac-foot {
   width: 600px;
@@ -399,12 +399,12 @@ body {
   padding-top: 40px;
   padding-bottom: 40px;
   line-height: 28px;
-  font-size: 18px;
+  font-size: 1.125em;
   color: #353940; }
   @media only screen and (max-device-width: 650px) {
     .project-desc-tictac-foot {
       width: 800px;
-      font-size: 32px;
+      font-size: 2em;
       line-height: 56px;
       padding-top: 80px;
       padding-bottom: 80px;
@@ -415,13 +415,13 @@ body {
   color: #F9A1BC;
   width: 80px;
   padding-bottom: 6px;
-  font-size: 20px;
+  font-size: 1.25em;
   text-align: center;
   margin: 0 auto; }
   @media only screen and (max-device-width: 650px) {
     .project-button-tictac-foot {
       width: 180px;
-      font-size: 50px;
+      font-size: 3.125em;
       padding-bottom: 12px; } }
 
 .email-section {
@@ -433,20 +433,20 @@ body {
 
 .email-text {
   padding-bottom: 50px;
-  font-size: 20px;
+  font-size: 1.25em;
   text-align: center;
   color: #454553; }
   @media only screen and (max-device-width: 650px) {
     .email-text {
       padding-bottom: 100px;
-      font-size: 40px;
+      font-size: 2.5em;
       line-height: 70px; } }
 
 .btn {
   display: inline-block;
   background: #EB586F;
   border-radius: 5px;
-  font-size: 20px;
+  font-size: 1.25em;
   line-height: 30px;
   padding: 12px 35px;
   color: #fff;
@@ -454,7 +454,7 @@ body {
   text-decoration: none; }
   @media only screen and (max-device-width: 650px) {
     .btn {
-      font-size: 45px;
+      font-size: 2.8125em;
       line-height: 60px;
       padding: 24px 70px;
       box-shadow: 0 6px 2px #C74A5E; } }
@@ -483,7 +483,7 @@ body {
       width: 800px;
       padding: 200px 0 200px 0;
       margin: 0 auto;
-      font-size: 20px;
+      font-size: 1.25em;
       text-align: center; } }
 
 .footer-text img {
