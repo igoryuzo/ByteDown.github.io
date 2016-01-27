@@ -1,0 +1,482 @@
+@font-face {
+  font-family: "Proxima-Light";
+  src: url("../fonts/proxima-nova-light.otf"); }
+@font-face {
+  font-family: "Proxima-Bold";
+  src: url("../fonts/proxima-nova-bold.otf"); }
+@font-face {
+  font-family: "Proxima-Light-Italic";
+  src: url("../fonts/proxima-nova-light-italic.otf"); }
+body {
+  margin: 0;
+  padding: 0;
+  font: 100% "Proxima-Light"; }
+
+.home-page_header-text {
+  font-family: "Proxima-Bold";
+  color: #7D8795;
+  letter-spacing: 4px;
+  font-size: 40px;
+  width: 600px;
+  margin: 0 auto;
+  text-align: center;
+  padding-top: 100px; }
+  @media only screen and (min-device-width: 375px) {
+    .home-page_header-text {
+      font-size: 80px;
+      width: 800px;
+      padding-top: 200px; } }
+
+.desc {
+  width: 600px;
+  text-align: left;
+  line-height: 28px;
+  margin: 100px auto 100px auto;
+  color: #898987;
+  font-size: 20px; }
+  @media only screen and (min-device-width: 375px) {
+    .desc {
+      width: 700px;
+      line-height: 60px;
+      font-size: 40px; } }
+
+.social-media-icons-container {
+  width: 300px;
+  margin: 0 auto;
+  text-align: center; }
+  @media only screen and (min-device-width: 375px) {
+    .social-media-icons-container {
+      width: 600px; } }
+
+.icons-container {
+  display: inline-block;
+  padding: 30px; }
+  @media only screen and (min-device-width: 375px) {
+    .icons-container {
+      padding: 30px 60px 30px 60px; } }
+
+.icons {
+  width: 30px;
+  height: 30px; }
+  @media only screen and (min-device-width: 375px) {
+    .icons {
+      width: 60px;
+      height: 60px; } }
+
+.resume-section {
+  background: #46CDCF; }
+
+.wealth-boost-section {
+  background: #656778; }
+
+.gekkou-section {
+  background: #FE967B; }
+
+.moker-section {
+  background: #4AA0D5; }
+
+.tic-tac-foot-section {
+  background: #faf8ef; }
+
+.imac-iphone-section {
+  padding-top: 100px;
+  padding-bottom: 100px; }
+  @media only screen and (min-device-width: 375px) {
+    .imac-iphone-section {
+      padding-top: 200px;
+      padding-bottom: 200px; } }
+
+.imac-section {
+  padding-top: 100px;
+  padding-bottom: 100px; }
+  @media only screen and (min-device-width: 375px) {
+    .imac-section {
+      padding-top: 200px;
+      padding-bottom: 200px; } }
+
+.imac-iphone-container {
+  position: relative;
+  width: 600px;
+  margin: 0 auto;
+  text-align: center; }
+  @media only screen and (min-device-width: 375px) {
+    .imac-iphone-container {
+      width: 800px; } }
+
+.imac-container {
+  position: relative;
+  width: 600px;
+  margin: 0 auto;
+  text-align: center; }
+  @media only screen and (min-device-width: 375px) {
+    .imac-container {
+      width: 800px; } }
+
+.imac-container img {
+  width: 500px; }
+  @media only screen and (min-device-width: 375px) {
+    .imac-container img {
+      width: 700px; } }
+
+.mobile-container img {
+  width: 375px;
+  position: absolute;
+  top: 100px;
+  left: 310px; }
+  @media only screen and (min-device-width: 375px) {
+    .mobile-container img {
+      width: 550px;
+      left: 345px; } }
+
+.project-header-resume {
+  width: 300px;
+  text-align: center;
+  margin: 0 auto;
+  font-family: "Proxima-Bold";
+  font-size: 34px;
+  padding-top: 60px;
+  color: #48466D; }
+  @media only screen and (min-device-width: 375px) {
+    .project-header-resume {
+      width: 600px;
+      font-size: 68px;
+      padding-top: 120px; } }
+
+.project-subheader-resume {
+  width: 600px;
+  font-family: "Proxima-Light-Italic";
+  font-size: 20px;
+  text-align: center;
+  margin: 0 auto;
+  color: #48466D; }
+  @media only screen and (min-device-width: 375px) {
+    .project-subheader-resume {
+      width: 600px;
+      font-size: 30px; } }
+
+.project-desc-resume {
+  width: 600px;
+  text-align: left;
+  margin: 0 auto;
+  padding-top: 40px;
+  padding-bottom: 40px;
+  line-height: 28px;
+  font-size: 18px;
+  color: #48466D; }
+  @media only screen and (min-device-width: 375px) {
+    .project-desc-resume {
+      width: 800px;
+      font-size: 32px;
+      line-height: 56px;
+      padding-top: 80px;
+      padding-bottom: 80px; } }
+
+.project-button-resume {
+  border-bottom: 1px solid #3D84A8;
+  color: #3D84A8;
+  width: 80px;
+  padding-bottom: 6px;
+  font-size: 20px;
+  text-align: center;
+  margin: 0 auto; }
+  @media only screen and (min-device-width: 375px) {
+    .project-button-resume {
+      width: 180px;
+      font-size: 50px;
+      padding-bottom: 12px; } }
+
+.project-header-wealth-boost {
+  width: 300px;
+  text-align: center;
+  margin: 0 auto;
+  font-family: "Proxima-Bold";
+  font-size: 34px;
+  padding-top: 60px;
+  color: #D8E9F0; }
+  @media only screen and (min-device-width: 375px) {
+    .project-header-wealth-boost {
+      width: 600px;
+      font-size: 68px;
+      padding-top: 120px; } }
+
+.project-subheader-wealth-boost {
+  width: 600px;
+  font-family: "Proxima-Light-Italic";
+  font-size: 20px;
+  text-align: center;
+  margin: 0 auto;
+  color: #D8E9F0; }
+  @media only screen and (min-device-width: 375px) {
+    .project-subheader-wealth-boost {
+      width: 600px;
+      font-size: 30px; } }
+
+.project-desc-wealth-boost {
+  width: 600px;
+  text-align: left;
+  margin: 0 auto;
+  padding-top: 40px;
+  padding-bottom: 40px;
+  line-height: 28px;
+  font-size: 18px;
+  color: #D8E9F0; }
+  @media only screen and (min-device-width: 375px) {
+    .project-desc-wealth-boost {
+      width: 800px;
+      font-size: 32px;
+      line-height: 56px;
+      padding-top: 80px;
+      padding-bottom: 80px; } }
+
+.project-button-wealth-boost {
+  border-bottom: 1px solid #FFF;
+  color: #FFF;
+  width: 80px;
+  padding-bottom: 6px;
+  font-size: 20px;
+  text-align: center;
+  margin: 0 auto; }
+  @media only screen and (min-device-width: 375px) {
+    .project-button-wealth-boost {
+      width: 180px;
+      font-size: 50px;
+      padding-bottom: 12px; } }
+
+.project-header-gekkou {
+  width: 300px;
+  text-align: center;
+  margin: 0 auto;
+  font-family: "Proxima-Bold";
+  font-size: 34px;
+  padding-top: 60px;
+  color: #F06868; }
+  @media only screen and (min-device-width: 375px) {
+    .project-header-gekkou {
+      width: 600px;
+      font-size: 68px;
+      padding-top: 120px; } }
+
+.project-subheader-gekkou {
+  width: 600px;
+  font-family: "Proxima-Light-Italic";
+  font-size: 20px;
+  text-align: center;
+  margin: 0 auto;
+  color: #FFF; }
+  @media only screen and (min-device-width: 375px) {
+    .project-subheader-gekkou {
+      width: 600px;
+      font-size: 30px; } }
+
+.project-desc-gekkou {
+  width: 600px;
+  text-align: left;
+  margin: 0 auto;
+  padding-top: 40px;
+  padding-bottom: 40px;
+  line-height: 28px;
+  font-size: 18px;
+  color: #FFF; }
+  @media only screen and (min-device-width: 375px) {
+    .project-desc-gekkou {
+      width: 800px;
+      font-size: 32px;
+      line-height: 56px;
+      padding-top: 80px;
+      padding-bottom: 80px; } }
+
+.project-button-gekkou {
+  border-bottom: 1px solid #F07668;
+  color: #F07668;
+  width: 80px;
+  padding-bottom: 6px;
+  font-size: 20px;
+  text-align: center;
+  margin: 0 auto; }
+  @media only screen and (min-device-width: 375px) {
+    .project-button-gekkou {
+      width: 180px;
+      font-size: 50px;
+      padding-bottom: 12px; } }
+
+.project-header-moker {
+  width: 300px;
+  text-align: center;
+  margin: 0 auto;
+  font-family: "Proxima-Bold";
+  font-size: 34px;
+  padding-top: 60px;
+  color: #454553; }
+  @media only screen and (min-device-width: 375px) {
+    .project-header-moker {
+      width: 600px;
+      font-size: 68px;
+      padding-top: 120px; } }
+
+.project-subheader-moker {
+  width: 600px;
+  font-family: "Proxima-Light-Italic";
+  font-size: 20px;
+  text-align: center;
+  margin: 0 auto;
+  color: #D8E9F0; }
+  @media only screen and (min-device-width: 375px) {
+    .project-subheader-moker {
+      width: 600px;
+      font-size: 30px; } }
+
+.project-desc-moker {
+  width: 600px;
+  text-align: left;
+  margin: 0 auto;
+  padding-top: 40px;
+  padding-bottom: 40px;
+  line-height: 28px;
+  font-size: 18px;
+  color: #D8E9F0; }
+  @media only screen and (min-device-width: 375px) {
+    .project-desc-moker {
+      width: 800px;
+      font-size: 32px;
+      line-height: 56px;
+      padding-top: 80px;
+      padding-bottom: 80px; } }
+
+.project-button-moker {
+  border-bottom: 1px solid #D8E9F0;
+  color: #D8E9F0;
+  width: 80px;
+  padding-bottom: 6px;
+  font-size: 20px;
+  text-align: center;
+  margin: 0 auto; }
+  @media only screen and (min-device-width: 375px) {
+    .project-button-moker {
+      width: 180px;
+      font-size: 50px;
+      padding-bottom: 12px; } }
+
+.project-header-tictac-foot {
+  width: 300px;
+  text-align: center;
+  margin: 0 auto;
+  font-family: "Proxima-Bold";
+  font-size: 34px;
+  padding-top: 60px;
+  color: #625772; }
+  @media only screen and (min-device-width: 375px) {
+    .project-header-tictac-foot {
+      width: 600px;
+      font-size: 68px;
+      padding-top: 120px; } }
+
+.project-subheader-tictac-foot {
+  width: 600px;
+  font-family: "Proxima-Light-Italic";
+  font-size: 20px;
+  text-align: center;
+  margin: 0 auto;
+  color: #353940; }
+  @media only screen and (min-device-width: 375px) {
+    .project-subheader-tictac-foot {
+      width: 600px;
+      font-size: 30px; } }
+
+.project-desc-tictac-foot {
+  width: 600px;
+  text-align: left;
+  margin: 0 auto;
+  padding-top: 40px;
+  padding-bottom: 40px;
+  line-height: 28px;
+  font-size: 18px;
+  color: #353940; }
+  @media only screen and (min-device-width: 375px) {
+    .project-desc-tictac-foot {
+      width: 800px;
+      font-size: 32px;
+      line-height: 56px;
+      padding-top: 80px;
+      padding-bottom: 80px; } }
+
+.project-button-tictac-foot {
+  border-bottom: 1px solid #F9A1BC;
+  color: #F9A1BC;
+  width: 80px;
+  padding-bottom: 6px;
+  font-size: 20px;
+  text-align: center;
+  margin: 0 auto; }
+  @media only screen and (min-device-width: 375px) {
+    .project-button-tictac-foot {
+      width: 180px;
+      font-size: 50px;
+      padding-bottom: 12px; } }
+
+.email-section {
+  padding: 100px;
+  text-align: center; }
+  @media only screen and (min-device-width: 375px) {
+    .email-section {
+      padding: 200px; } }
+
+.email-text {
+  padding-bottom: 50px;
+  font-size: 20px;
+  text-align: center;
+  color: #454553; }
+  @media only screen and (min-device-width: 375px) {
+    .email-text {
+      padding-bottom: 100px;
+      font-size: 40px;
+      line-height: 70px; } }
+
+.btn {
+  display: inline-block;
+  background: #EB586F;
+  border-radius: 5px;
+  font-size: 20px;
+  line-height: 30px;
+  padding: 12px 35px;
+  color: #fff;
+  box-shadow: 0 3px 1px #C74A5E;
+  text-decoration: none;
+  font-size: 45px;
+  line-height: 60px;
+  padding: 24px 70px;
+  box-shadow: 0 6px 2px #C74A5E; }
+
+.btn img {
+  width: 30px;
+  height: 30px;
+  margin-right: 10px;
+  width: 60px;
+  height: 60px;
+  margin-right: 20px; }
+
+.footer-section {
+  background: #393E46; }
+
+.footer-text {
+  padding: 100px;
+  width: 600px;
+  margin: 0 auto;
+  text-align: center;
+  color: #222831; }
+  @media only screen and (min-device-width: 375px) {
+    .footer-text {
+      width: 800px;
+      padding: 200px 0 200px 0;
+      margin: 0 auto;
+      font-size: 20px;
+      text-align: center; } }
+
+.footer-text img {
+  width: 20px;
+  height: 20px; }
+  @media only screen and (min-device-width: 375px) {
+    .footer-text img {
+      width: 50px;
+      height: 50px; } }
+
+/*# sourceMappingURL=main.css.map */
