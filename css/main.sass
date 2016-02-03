@@ -37,115 +37,53 @@ body
   font-family: $proxima-bold
   color: #52616B
   letter-spacing: 4px
-  font-size: 2.5em
-  width: 600px
+  font-size: 5em
+  width: 800px
   margin: 0 auto
   text-align: center
   padding-top: 100px
-  @media only screen and (max-device-width: 650px)
-    font-size: 80px
-    width: 800px
-    padding-top: 200px
   
 // Contact Me
 .contact-me
   text-align: center
 
 .icons
-  padding: 30px
+  padding: 50px
   width: 60px
   height: 60px
 
 // Description
 .desc
-  width: 600px
+  width: 800px
   text-align: left
-  line-height: 28px
-  margin: 70px auto 100px auto
-  color: #898987
-  font-size: $project-subheader
-  @media only screen and (max-device-width: 650px)
-    width: 800px
-    line-height: 60px
-    font-size: 3em
-    margin: 170px auto 200px auto
+  line-height: 2em
+  margin: 150px auto 200px auto
+  color: #7B92A1
+  font-size: 1.5em
   
 // Projects
 .project
-  padding: 100px
+  padding: 200px 100px 200px 100px
   text-align: center
+  h1
+    padding-top: 100px
+    font-size: 3em
+    margin: 0 auto
+  h3
+    margin: 0 auto
+  p
+    margin: 0 auto
+    line-height: 2em
+    padding: 100px 0 100px 0
+  a.project-link
+    font-size: 3em
+    border-bottom: 4px solid #FFF
+    width: $project-button-width
+    padding-bottom: 6px
+    text-decoration: none
+  a.project-link:visited
+    color: #FFF
 
-.resume
-  background: #46CDCF
-  h1
-    color: #48466D
-  h3
-    color: #48466D
-  p
-    color: #48466D
-  a.project-link
-    color: #FFF
-    border-bottom: 1px solid #FFF
-  a.project-link:visited
-    color: #FFF
-    
-.wealth-boost
-  background: #656778
-  h1
-    color: #D8E9F0
-  h3
-    color: #D8E9F0
-  p
-    color: #D8E9F0
-  a.project-link
-    color: #FFF
-    border-bottom: 1px solid #FFF
-  a.project-link:visited
-    color: #FFF  
-    border-bottom: 1px solid #FFF
-    
-.gekkou
-  background: #FE967B
-  h1
-    color: #F06868
-  h3
-    color: #FFF
-  p
-    color: #FFF
-  a.project-link
-    color: #FFF
-    border-bottom: 1px solid #FFF
-  a.project-link:visited
-    color: #FFF
-    
-.moker
-  background: #4AA0D5
-  h1
-    color: #454756
-  h3
-    color: #FFF
-  p
-    color: #FFF
-  a.project-link
-    color: #FFF
-    border-bottom: 1px solid #FFF
-  a.project-link:visited
-    color: #FFF
-    
-.tic-tac-foot
-  background: #FAF8EF
-  h1
-    color: #625772
-  h3
-    color: #625772
-  p
-    color: #625772
-  a.project-link
-    color: #FFF
-    border-bottom: 1px solid #F9A1BC
-  a.project-link:visited
-    color: #F9A1BC
-    
 .image-cont
   position: relative
     
@@ -167,20 +105,57 @@ body
 .project-desc
   text-align: left
   font-size: $project-desc
-
-a.project-link
-  width: $project-button-width
-  padding-bottom: 6px
-  font-size: $project-button
-  text-decoration: none
-  
-.wealth-boost a.project-link
-  color: #F75A4C
-  border-bottom: 1px solid #F75A4C
-  
-.wealth-boost a.project-link
-  color: #F75A4C
-  border-bottom: 1px solid #F75A4C
+    
+.resume
+  background: #46CDCF
+  h1
+    color: #48466D
+  h3
+    color: #48466D
+  p
+    color: #48466D
+    
+.wealth-boost
+  background: #656778
+  h1
+    color: #D8E9F0
+  h3
+    color: #D8E9F0
+  p
+    color: #D8E9F0
+    
+.gekkou
+  background: #FE967B
+  h1
+    color: #F06868
+  h3
+    color: #FFF
+  p
+    color: #FFF
+    
+.moker
+  background: #4AA0D5
+  h1
+    color: #454756
+  h3
+    color: #FFF
+  p
+    color: #FFF
+    
+.tic-tac-foot
+  background: #FAF8EF
+  h1
+    color: #625772
+  h3
+    color: #625772
+  p
+    color: #625772
+  a.project-link
+    color: #F9A1BC
+    border-bottom: 4px solid #F9A1BC
+  a.project-link:visited
+    color: #F9A1BC
+    border-bottom: 4px solid #F9A1BC
       
 //Email Section
 .email-section
