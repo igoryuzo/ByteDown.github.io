@@ -2,7 +2,7 @@ html {
   font-family: sans-serif; /* 1 */
   -ms-text-size-adjust: 100%; /* 2 */
   -webkit-text-size-adjust: 100%; /* 2 */
-  font-size: 20px;
+  font-size: 10px; // 1rem = 10px
 }
 /*! normalize.css v3.0.3 | MIT License | github.com/necolas/normalize.css */
 
@@ -134,8 +134,15 @@ dfn {
  */
 
 h1 {
-  font-size: 2em;
-  margin: 0.67em 0;
+  margin: 0;
+  font-size: 2.618rem;
+}
+h2 {
+  margin: 0;
+  font-size: 1.618rem;
+}
+p {
+  font-size: 1rem;
 }
 
 /**
