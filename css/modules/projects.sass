@@ -5,24 +5,35 @@
   h1
     font-family: $proxima-bold
     font-weight: normal
+    @media (min-width: 600px)
+      font-size: 4rem
   p
     font-size: 2rem
     line-height: 2.8rem
-    padding: 3rem 0 3rem 0
+    @media (min-width: 600px)
+      font-size: 2.1rem
+      line-height: 2.94rem
   a.project-link
     font-size: 2rem
     border-bottom: 0.2rem solid #FFF
     width: $project-button-width
     padding-bottom: 0.6rem
     text-decoration: none
+    @media (min-width: 600px)
+      font-size: 2.4rem
+      line-height: 3.36rem
   a.project-link:visited
     color: #FFF
 
 .skill
   color: #FFF
-  font-size: 2rem
+  font-size: 1.6rem
   border-radius: 0.5rem
-
+  @media (max-width: 320px)
+    font-size: 1.5rem
+  @media (min-width: 600px)
+    font-size: 1.7rem
+    
 .wealth-boost .skill
   background: #F7594C
   

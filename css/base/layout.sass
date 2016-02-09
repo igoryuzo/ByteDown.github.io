@@ -1,31 +1,50 @@
+@import 'media_queries'
+
+// Header
 .header-name
-  width: 90%
+  width: 80%
   margin: 0 auto
   text-align: center
   padding-top: 7rem
+  @media (min-width: 900px)
+    padding-top: 14rem
     
 // Icons
 .icons-section
   width: 80%
   margin: 0 auto
   text-align: center
-  
+  @include iphone5
+    
 .icons
-  padding: 1rem 2rem 1rem 2rem
+  padding: 0.5rem 1.5rem 0.5rem 1.5rem
   width: 3rem
   height: 3rem
+  @media (max-width: 320px)
+    width: 2.5rem
+    height: 2.5rem
+  @media (min-width: 600px)
+    padding: 1rem 2rem 1rem 2rem
+    width: 3.5rem
+    height: 3.5rem
+  @media (min-width: 900px)
+    padding: 2rem 3rem 2rem 3rem
 
 // About Me Desc
 .desc
-  width: 90%
-  max-width: 800px
+  width: 80%
   text-align: left
   margin: 0 auto
   padding: 6rem 0 6em 0
-
+  @include iphone5
+  @media (min-width: 900px)
+    width: 684px
+    
 // Resume
 .resume-section
   padding: 7rem
+  @media (min-width: 900px)
+    padding: 14rem
 
 .resume-link
   text-align: center
@@ -33,17 +52,27 @@
 .resume-link img
   width: 8rem
   height: 8rem
+  padding-bottom: 1rem
   display: block
   margin: 0 auto
+  @media (min-width: 600px)
+    width: 12rem
+    height: 12rem
   
 // Projects
 .project
   padding: 7rem 0 7rem 0
   text-align: center
+  @media (min-width: 900px)
+    padding: 14rem 0 14rem 0
   .image-cont
     position: relative
-    width: 90%
+    width: 60%
+    max-width: 400px
     margin: 0 auto
+    padding-bottom: 3.5rem
+    @media (min-width: 600px)
+      max-width: 400px
     .imac
       width: 100%
     .iphone
@@ -53,31 +82,55 @@
       top: 26%
   h1
     padding-top: 2rem
+    @media (min-width: 900px)
+      padding-top: 4rem
   p
-    width: 90%
+    width: 80%
     margin: 0 auto
+    padding: 4rem 0 8rem 0
+    @include iphone5
+    @media (min-width: 900px)
+      width: 684px
+
+.project-desc-link
+  text-decoration: none
+  color: #3A4750
 
 .skills-container
   height: 10rem
-  width: 90%
+  width: 80%
   margin: 0 auto
+  @include iphone5
+    height: 8rem
+  @media (min-width: 400px)
+    max-width: 300px
+  @media (min-width: 600px)
+    max-width: 360px
 
 .skill
   display: inline-block
   margin-right: 0.2rem
   margin-top: 0.4rem
-  padding: 1rem
+  padding: 0.8rem
+  @media (max-width: 320px)
+    padding: 0.8rem
+  @media (min-width: 600px)
+    padding: 1rem
 
 // Email
 .email-section
-  width: 90%
+  width: 80%
   margin: 0 auto
   text-align: center
   padding: 7rem 0 7rem 0
+  @media (min-width: 900px)
+    width: 40%
   
 // Footer
 .footer-text
-  width: 90%
+  width: 80%
   margin: 0 auto
   padding: 7rem 0 7rem 0
   text-align: center
+  @media (min-width: 900px)
+    width: 40%
